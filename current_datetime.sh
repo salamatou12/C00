@@ -1,3 +1,3 @@
-#!bin/bash.sh
+#!bin/bash
 
 date "+%y-%m-%d %H:%M:%S"
