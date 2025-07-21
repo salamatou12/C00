@@ -1,6 +1,6 @@
-#bin/bash
+#!/bin/bash
 
-   echo "Entrer le nom du fichier :"
+   echo "Entrer le nom du fichier : "
    read fichier
    if [ -f "$fichier" ]; then
 
