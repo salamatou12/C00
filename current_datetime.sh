@@ -1,3 +1,3 @@
 #/bin/bash/
-echo "%y-%m-%d %H:%M:%S"
-
+current_datetime=$(date +"%Y-%m-%d %H:%M:%S")
+echo "$current_datetime"
