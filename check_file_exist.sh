@@ -1,4 +1,4 @@
-#!/bin/bash
+#bin/bash
 
    echo "Entrer le nom du fichier :"
    read fichier
