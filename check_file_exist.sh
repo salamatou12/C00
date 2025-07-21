@@ -1,17 +1,8 @@
 #!/bin/bash
-
-   echo "Entrer le nom du fichier : "
-   read fichier
-   if [ -f "$fichier" ]; then
-
-  echo "Le fichier '$fichier' existe."
-    else
-  echo "Le fichier '$fichier' n'existe pas."
-
-    fi
-
-    
-
-
-
-
+echo "Entrer le nom du fichier : "
+read filename
+if [ -f "$filename" ]; then
+    echo "Le fichier '$filename' existe."
+else
+    echo "Le fichier '$filename' n'existe pas."
+fi
